@@ -4,13 +4,14 @@
 
 // get all html elements
 const againBtn = document.getElementById('againBtn');
-const randomNum = document.getElementById('randomNum');
+const randomNum = document.getElementById('guessBtn');
 const checkBtn = document.getElementById('checkBtn');
 const guessTxt = document.getElementById('guessTxt');
 const scoreSpan = document.getElementById('score');
 const highScoreSpan = document.getElementById('highScore')
 const numberInp = document.getElementById('numberInp')
 
+console.log(randomNum)
 
 // variables 
 let randomNumber;
